@@ -11,7 +11,7 @@ Operating Systems: Three Easy Pieces这本书从 虚拟化(virtualization), 并�
 | --------------- | ----------------------- | -------------------------------- | -------------------------- | ----------------------------------- | ---------------- |
 | Preface| 3 Dialogue | 12 Dialogue | 25 Dialogue | 35 Dialogue| Dialogue | 
 | TOC | 4 [Processes](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/4%20Processes.md) | 13 [Address Spaces](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/13%20Address%20Spaces.md) | 26 Concurrency and Threads | 36 I/O Devices | Virtual Machines | 
-| 1 Dialogue | 5 [Process API](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/5%20Process%20API.md) | 14 Memory API | 27 Thread API| 37 Hard Disk Drives | Dialogue | 
+| 1 Dialogue | 5 [Process API](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/5%20Process%20API.md) | 14 [Memory API](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/14%20Memory%20API.md) | 27 Thread API| 37 Hard Disk Drives | Dialogue | 
 | 2 Introduction | 6 [Direct Execution](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/6%20Direct%20Execution.md) | 15 Address Translation | 28 Locks | 38 Redundant Disk Arrays (RAID) | Monitors | 
 |  | 7 [CPU Scheduling](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/7%20CPU%20Scheduling.md) | 16 Segmentation | 29 Locked Data Structures | 39 Files and Directories | Dialogue | 
 |  | 8 [Multi-level Feedback](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/8%20Multi-level%20Feedback.md) | 17 Free Space Management | 30 Condition Variables| 40 File System Implementation | Lab Tutorial | 
