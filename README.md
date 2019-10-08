@@ -10,7 +10,7 @@ Operating Systems: Three Easy Pieces这本书从 虚拟化(virtualization), 并�
 | intro           | virtualization          |                                  | concurrency                | persistence                         | appendices       |
 | --------------- | ----------------------- | -------------------------------- | -------------------------- | ----------------------------------- | ---------------- |
 | Preface| 3 Dialogue | 12 Dialogue | 25 Dialogue | 35 Dialogue| Dialogue | 
-| TOC | 4 [Processes](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/4%20Processes.md) | 13 [Address Spaces](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/13%20Address%20Spaces.md) | 26 Concurrency and Threads | 36 I/O Devices | Virtual Machines | 
+| TOC | 4 [Processes](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/4%20Processes.md) | 13 [Address Spaces](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/13%20Address%20Spaces.md) | 26 [Concurrency and Threads](https://github.com/koihuang/ostep-note/blob/master/2%20%20concurrency/26%20Concurrency%20and%20Threads.md) | 36 I/O Devices | Virtual Machines | 
 | 1 Dialogue | 5 [Process API](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/5%20Process%20API.md) | 14 [Memory API](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/14%20Memory%20API.md) | 27 Thread API| 37 Hard Disk Drives | Dialogue | 
 | 2 Introduction | 6 [Direct Execution](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/6%20Direct%20Execution.md) | 15 [Address Translation](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/15%20Address%20Translation.md) | 28 Locks | 38 Redundant Disk Arrays (RAID) | Monitors | 
 |  | 7 [CPU Scheduling](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/7%20CPU%20Scheduling.md) | 16 [Segmentation](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/16%20Segmentation.md) | 29 Locked Data Structures | 39 Files and Directories | Dialogue | 
@@ -18,9 +18,9 @@ Operating Systems: Three Easy Pieces这本书从 虚拟化(virtualization), 并�
 |  | 9 Lottery Scheduling | 18 [Introduction to Paging](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/18%20Introduction%20to%20Paging.md)| 31 Semaphores| 41 Fast File System (FFS) | Systems Labs | 
 |  | 10 [Multi-CPU Scheduling](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/10%20Multi-CPU%20Scheduling.md) | 19 [Translation Lookaside Buffers](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/18%20Introduction%20to%20Paging.md) | 32 Concurrency Bugs | 42 FSCK and Journaling | xv6 Labs | 
 |  | 11 Summary | 20 [Advanced Page Tables](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/20%20Advanced%20Page%20Tables.md)| 33 Event-based Concurrency| 43 Log-Structured File System (LFS) |  | 
-|  |  | 21 Swapping: Mechanisms | 34 Summary | 44 Data Integrity and Protection|  | 
-|  |  | 22 Swapping: Policies |  | 45 Summary|  | 
-|  |  | 23 Complete VM Systems |  | 46 Dialogue |  | 
+|  |  | 21 [Swapping: Mechanisms](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/21%20Swapping%20Mechanisms.md) | 34 Summary | 44 Data Integrity and Protection|  | 
+|  |  | 22 [Swapping: Policies](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/22%20Swapping%20Policies.md) |  | 45 Summary|  | 
+|  |  | 23 [Complete VM Systems](https://github.com/koihuang/ostep-note/blob/master/1%20virtualization/23%20Complete%20VM%20Systems.md) |  | 46 Dialogue |  | 
 |  |  | 24 Summary |  | 47 Distributed Systems|  | 
 |  |  |  |  | 48 Network File System (NFS)|  | 
 |  |  |  |  | 49 Andrew File System (AFS)|  | 
