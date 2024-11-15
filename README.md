@@ -25,3 +25,8 @@ Operating Systems: Three Easy Pieces这本书从 虚拟化(virtualization), 并�
 |  |  |  |  | 48 Network File System (NFS)|  | 
 |  |  |  |  | 49 Andrew File System (AFS)|  | 
 |  |  |  |  | 50 Summary |  | 
+
+# Buy me a coffee
+| 微信                                                         |
+|------------------------------------------------------------|
+| <img src=".img/wechat_coffee.JPG" alt="微信赞赏码" width="400"> |
