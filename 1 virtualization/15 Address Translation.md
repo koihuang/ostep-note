@@ -16,7 +16,7 @@
 
 
 **转化示例:**  
-![](img/address_translate_example.png)
+![](./img/address_translate_example.png)
 **内存分配例:**  
-![](img/memery_allocate_example.png)
+![](./img/memery_allocate_example.png)
 

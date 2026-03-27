@@ -16,18 +16,18 @@
     *   其它初始任务:
         *   一般会默认分配三个输出流:标准输入流(input),标准输出流(output),标准错误流(error)
     *   最后:跳到程序执行入口即main()运行  
-    ![](img/loading_program.png)
+    ![](./img/loading_program.png)
 
 2.  **进程的状态(简单来说有3种)**
     *   运行(Running):正在运行
     *   就绪(Ready):运行就绪,因为某些原因操作系统没选择它运行
     *   阻塞(Block):执行了某些操作(比如I/O操作),直到某些事件发生才会准备运行
-    ![](img/process_state.png)
+    ![](./img/process_state.png)
 
 3.  **进程相关的数据结构**
     *   context : 进程相关的寄存器内容,当切换进程时会将该进程的寄存器内容存起来,当再次切换回来的时候将之前存起来的寄存器内容一一加载到真实的寄存器中
-        ![](img/context.png)
+        ![](./img/context.png)
     *   proc_state: 进程的状态枚举
-        ![](img/proc_state.png)
+        ![](./img/proc_state.png)
     *   proc: 进程的相关信息,包括进程id,父进程id,context的引用,proc_state值等
-        ![](img/proc.png)
+        ![](./img/proc.png)

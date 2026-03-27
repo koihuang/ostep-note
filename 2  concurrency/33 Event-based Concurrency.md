@@ -22,7 +22,7 @@ while(1) {
                 struct timeval *restrict timeout);
     ```
     nfds代表用户关心的所有文件描述符的最大值,readfds是用户关心读事件(是否可读)的文件描述符集合,writefds则是跟写事件相关的集合,errorfds是跟出错事件相关的集合,timeout是当没有事件发生时等待的超时时间.select返回发生事件的个数,同时readfds,writefds,errorfds内部元素替换为发生相应事件的集合.然后对这些集合做相应的处理.一个简单的使用select()代码:  
-    ![](img/simple_code_use_select.png)  
+    ![](./img/simple_code_use_select.png)  
     从代码看,我们发现没有线程相关的锁,条件变量等,实现也是比较简单易懂的.因为同时只会有一个事件被处理,因此也不需要线程切换,就不会出现之前介绍的线程安全问题.
 2.  **基于事件的并发问题**  
     *   **阻塞的系统调用**  
